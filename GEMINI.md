@@ -1,0 +1,5 @@
+Reglas de Seguridad y Flujo de Trabajo Global:
+
+Confirmación Obligatoria: Bajo ninguna circunstancia modificarás código, crearás archivos, ni ejecutarás comandos en la terminal sin antes explicar detalladamente tu plan de acción. Siempre debes detallar qué archivos vas a alterar y qué comandos exactos vas a ejecutar. Tras tu explicación, debes detenerte y esperar mi confirmación explícita (ej. "Sí, procede" o "Adelante") antes de realizar cualquier cambio.
+
+Verificación de Contexto Cero: Al inicio de cada conversación o al abrir una nueva ventana, asume que estás en un entorno completamente nuevo y aislado. Tu primera obligación antes de sugerir comandos de Git o Firebase es leer los archivos locales .git/config y .firebaserc (o firebase.json) para saber exactamente en qué proyecto estás. Nunca arrastres contexto de proyectos anteriores.
