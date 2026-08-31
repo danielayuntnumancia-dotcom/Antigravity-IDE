@@ -1,15 +1,25 @@
-# 🚀 Antigravity IDE - Paquete de Sincronización y Configuración
+# 🚀 Antigravity IDE - Sincronización y Configuración Multi-Equipo
 
-Este repositorio contiene la configuración unificada de **Google Antigravity IDE** para trabajar de forma idéntica en cualquier equipo.
+Este repositorio contiene la configuración unificada de **Google Antigravity IDE** para trabajar de forma idéntica en cualquier ordenador.
 
 ---
 
-## 📦 ¿Qué incluye este paquete?
+## ⚡ Instalación en 1 Clic (1 Solo Archivo)
+
+Para configurar cualquier ordenador nuevo:
+
+1. **Descarga únicamente el archivo [`configurar_antigravity.bat`](https://raw.githubusercontent.com/danielayuntnumancia-dotcom/Antigravity-IDE/main/configurar_antigravity.bat)** (o guárdalo en tu pendrive/nube).
+2. Haz **doble clic en `configurar_antigravity.bat`**.
+3. ¡Listo! En menos de 40 segundos, el script detectará tu usuario, instalará las dependencias y dejará Antigravity configurado al 100%.
+
+---
+
+## 📦 ¿Qué instala y configura automáticamente?
 
 1. **25 Agent Skills de Addy Osmani:**
-   - Metodologías avanzadas (`spec-driven-development`, `test-driven-development`, `security-and-hardening`, `code-review-and-quality`, etc.).
+   - Metodologías (`spec-driven-development`, `test-driven-development`, `security-and-hardening`, `code-review-and-quality`, `incremental-implementation`, etc.).
 2. **Servidores MCP (Model Context Protocol):**
-   - 🌐 `Chrome DevTools` (automatización y pruebas de navegador real).
+   - 🌐 `Chrome DevTools` (automatización y pruebas de navegador).
    - 🐙 `GitHub MCP` (gestión de repositorios).
    - 🎨 `Figma MCP` (lectura de diseños).
 3. **Herramientas Globales:**
@@ -22,11 +32,3 @@ Este repositorio contiene la configuración unificada de **Google Antigravity ID
    - `/terminar` (guarda todo en GitHub y despliega en Firebase).
    - `/convertir_apk` (convierte la app web a Android APK).
    - `/verificar-estado` (comprueba versiones sin tocar código).
-
----
-
-## ⚡ Cómo configurar un ordenador nuevo (en 1 solo paso)
-
-1. Clona este repositorio o copia estos archivos en el nuevo equipo.
-2. Haz **doble clic en `configurar_antigravity.bat`** (o ejecuta `configurar_antigravity.ps1` con PowerShell).
-3. ¡Listo! El script detectará automáticamente tu nombre de usuario, instalará las dependencias y dejará Antigravity configurado al 100%.
